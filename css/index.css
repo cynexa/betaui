@@ -90,7 +90,8 @@ body {
 
 /* Content-Body */
 .c-body {
-    justify-content: space-between;
+    display: flex;
+    /* justify-content: space-between; */
     color: #ffffff;
     background-color: #23286b;
     padding: 20px;
