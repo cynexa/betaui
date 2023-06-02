@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Lora:ital@1&family=Noto+Sans+Bengali:wght@300&display=swap');
+
+/*css reset*/
+body {
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    font-family: 'Dm Sans';
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    background-color: #23286b;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+
+.logo {
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+.navs {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.navs a {
+    color: #ffffff;
+    margin-left: 15px;
+    text-decoration: none;
+    font-family: 'Dm Sans';
+}
+
+.navs a:hover {
+    color: #f8b404;
+    text-decoration: underline;
+}
+
+/* Heading-Body */
+
+.h-body {
+    height: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading {
+    font-size: 30px;
+    color: #e6b84c;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.heading h1 {
+    margin: 0;
+}
+
+.sub-heading {
+    color: #23286b;
+    font-size: 20px;
+    font-family: 'Lora';
+    padding-left: 50%;
+}
+
+.sub-heading p {
+    margin: 0;
+}
+
+.lrn-more button {
+    margin-top: 20px;
+    background-color: #e6b84c;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+}
+
+/* Content-Body */
+.c-body {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    background-color: #23286b;
+    padding: 20px;
+}
+
+.quotes {
+    border-radius: 25px;
+    background: #9999993d;
+    font-family: 'Noto Sans Bengali';
+}
