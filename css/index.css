@@ -95,23 +95,27 @@ body {
 }
 
 .s-quotes {
+    margin: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     color: #ffffff;
 }
 
 .qs-text {
+    padding: 10px;
     border-radius: 25px;
     background: #9999993d;
 }
 
 .b-quotes {
     display: flex;
-    /* justify-content: space-around; */
+    margin: 10px;
+    justify-content: center;
     color: #ffffff;
 }
 
 .qb-text {
+    padding:10px;
     border-radius: 25px;
     background: #9999993d;
 }
