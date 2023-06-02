@@ -89,16 +89,30 @@ body {
 }
 
 /* Content-Body */
-.c-body {
-    display: flex;
-    /* justify-content: space-between; */
-    color: #ffffff;
+.quotes {
     background-color: #23286b;
     padding: 20px;
 }
 
-.quotes {
+.s-quotes {
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+}
+
+.qs-text {
     border-radius: 25px;
     background: #9999993d;
-    font-family: 'Noto Sans Bengali';
 }
+
+.b-quotes {
+    display: flex;
+    /* justify-content: space-around; */
+    color: #ffffff;
+}
+
+.qb-text {
+    border-radius: 25px;
+    background: #9999993d;
+}
+
