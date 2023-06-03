@@ -1,11 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Lora:ital@1&family=Noto+Sans+Bengali:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Lora:ital@1&family=Noto+Sans+Bengali:wght@300&family=Raleway:wght@100&display=swap');
+/*Imps*/
 
-/*css reset*/
 body {
     padding: 0;
     margin: 0;
     background-repeat: no-repeat;
     font-family: 'Dm Sans';
+}
+
+.h-hr {
+    width: 20%;
+    margin-bottom: 15px;
 }
 
 /* Header */
@@ -61,11 +66,18 @@ body {
     margin: 0;
 }
 
+.sh-up {
+  padding-right: 600px;
+}
+
+.sh-down {
+  padding-left: 600px;  
+}
+
 .sub-heading {
     color: #23286b;
     font-size: 20px;
     font-family: 'Lora';
-    padding-left: 50%;
 }
 
 .sub-heading p {
@@ -88,35 +100,56 @@ body {
     border-left-width: 0px;
 }
 
-/* Content-Body */
-.quotes {
+/* Quotes */
+
+.material-symbols-rounded {
+    color: #ffffff71;
+}
+
+.sec-quotes {
     background-color: #23286b;
     padding: 10px;
 }
 
+.h-quotes {
+    color: #e6b84c;
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway';
+}
+
+.h-quotes h2 {
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
 .s-quotes {
-    margin: 10px;
     display: flex;
     justify-content: space-between;
     color: #ffffff;
 }
 
 .qs-text {
+    margin: 10px;
     padding: 10px;
+    font-style: italic;
     border-radius: 25px;
     background: #9999993d;
 }
 
 .b-quotes {
     display: flex;
-    margin: 10px;
     justify-content: center;
     color: #ffffff;
 }
 
 .qb-text {
+    margin: 10px;
     padding:10px;
+    font-style: italic;
     border-radius: 25px;
     background: #9999993d;
 }
+
 
