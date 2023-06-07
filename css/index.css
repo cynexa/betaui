@@ -4,6 +4,8 @@
 body {
     padding: 0;
     margin: 0;
+    background: rgb(255, 11, 126);
+    background: linear-gradient(45deg, rgba(255, 11, 126, 1) 0%, rgba(253, 11, 93, 1) 0%, rgba(154, 0, 255, 1) 60%, rgba(68, 0, 255, 1) 100%);
     background-repeat: no-repeat;
     font-family: 'Dm Sans';
 }
@@ -19,14 +21,17 @@ body {
     display: flex;
     color: #ffffff;
     align-items: center;
-    background-color: #23286b;
     justify-content: space-between;
     font-family: sans-serif;
 }
 
 .logo {
-    font-size: 50px;
     margin-left: 10px;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
 }
 
 .navs {
@@ -67,11 +72,11 @@ body {
 }
 
 .sh-up {
-  padding-right: 600px;
+    padding-right: 600px;
 }
 
 .sh-down {
-  padding-left: 600px;  
+    padding-left: 600px;
 }
 
 .sub-heading {
@@ -146,10 +151,8 @@ body {
 
 .qb-text {
     margin: 10px;
-    padding:10px;
+    padding: 10px;
     font-style: italic;
     border-radius: 25px;
     background: #9999993d;
 }
-
-
