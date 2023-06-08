@@ -71,20 +71,4 @@ body {
     width: 100%;
 }
 
-/* For Mobiles */
-@media only screen and (max-width: 600px) {
-
-    /* Header */
-
-    .top {
-        display: flex;
-        height: 60px;
-        position: sticky;
-        align-items: center;
-        background: rgb(30 41 59);
-        justify-content: space-between;
-        align-items: center;
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-}
+/* Welcome */

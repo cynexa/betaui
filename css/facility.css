@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Quicksand:wght@500&display=swap');
 /*Imps*/
 body {
     padding: 0;
     margin: 0;
     background: rgb(17 24 39);
-    background-repeat: no-repeat;    
-    font-family: 'Quicksand', sans-serif;
+    background-repeat: no-repeat;
+    user-select: none;
 }
 
 /* Top Part */
@@ -19,6 +18,8 @@ body {
     background: rgb(30 41 59);
     justify-content: space-between;
     align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 /* Logo */
@@ -26,7 +27,8 @@ body {
 .logo {
     font-size: 25px;
     font-weight: 700;
-    padding-left: 20px;
+    
+    font-family: 'Quicksand', sans-serif;
 }
 
 .logo a {
@@ -38,14 +40,35 @@ body {
 /* Navigation Bar */
 
 .navs {
-    font-size: 20px;
-    padding-right: 20px;
+    width: 550px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 17px;
+    
+    font-family: 'Poppins', sans-serif;
 }
 
 .navs a {
-    padding: 10px;
+    position: relative;
+    letter-spacing: 0.5px;
     color: #d8b4fe;
     text-decoration: none;
+}
+
+.navs a:after {
+    content: "";
+    position: absolute;
+    background-color: #ff3c7a;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+
+.navs a:hover:after {
+    width: 100%;
 }
 
 /* Welcome */
