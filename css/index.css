@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins:wght@500&family=Quicksand:wght@500&family=Lora:ital@1&display=swap');
+
 /*Imps*/
 body {
     padding: 0;
@@ -27,7 +28,6 @@ body {
 .logo {
     font-size: 25px;
     font-weight: 700;
-    
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -45,7 +45,7 @@ body {
     justify-content: space-around;
     align-items: center;
     font-size: 17px;
-    
+
     font-family: 'Poppins', sans-serif;
 }
 
@@ -72,3 +72,109 @@ body {
 }
 
 /* Welcome */
+
+.wlcm {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub-h {
+    font-family: 'Lora', sans-serif;
+}
+
+.wlcm-mid {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wlcm-mid img {
+    width: 700px;
+    filter: drop-shadow(36px 36px 30px #00000077);
+
+}
+
+.wlcm-mid p {
+    position: absolute;
+    padding-top: 150px;
+    font-size: 120px;
+}
+
+.p-down {
+    z-index: -1;
+}
+
+.p-up {
+    z-index: 1;
+    color: transparent;
+    -webkit-text-stroke: 3px #ffffff;
+}
+
+/* Quotes */
+
+.material-symbols-rounded {
+    color: #ffffff71;
+}
+
+.h-hr {
+    width: 20%;
+    margin-bottom: 15px;
+}
+
+.quotes {
+    padding: 10px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.h-quotes {
+    color: #e6b84c;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.h-quotes h2 {
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-weight: 100;
+
+}
+
+.s-quotes {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.qs-text {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    background: #9999993d;
+}
+
+.qs-text p {
+    font-style: italic;
+}
+
+.b-quotes {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.qb-text {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    background: #9999993d;
+}
+
+.qb-text p {
+    font-style: italic;
+}
